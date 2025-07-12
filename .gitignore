@@ -1,1 +1,3 @@
-/venv
+# Ignore model directories and files
+models/
+src/models/

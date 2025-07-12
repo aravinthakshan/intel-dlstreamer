@@ -1,0 +1,8 @@
+Create pipeline (decode, Detect and classify) on Intel HW (CPU and GPU) run pipeline on CPU,
+GPU. Figure out how many cameras streams are supported, what is optimum FPS which model best
+on Intel HW.
+Outcomes
+• Maximum number of streams, FPS and Model on CPU
+• Maximum number of streams, FPS and Model on GPU
+• Bottleneck CPU, GPU, or IO
+• Create a 3-page report on the chosen problem, Pipeline, and results of each model
