@@ -4,6 +4,15 @@
 
 This project provides a comprehensive benchmarking pipeline for evaluating Intel® Deep Learning Streamer (DL Streamer) performance on Intel hardware (CPU and GPU) using Docker. The pipeline decodes video, performs detection and classification, and measures the maximum number of supported camera streams, optimum FPS, and model performance on Intel hardware. It also identifies system bottlenecks (CPU, GPU, or IO) and generates a detailed report.
 
+### Pipeline Overview
+
+```mermaid
+flowchart LR
+    A["Video Decode"] --> B["Object Detection"]
+    B --> C["Object Classification"]
+    C --> D["Results/Output"]
+```
+
 ### Project Outcomes
 - **Maximum number of streams, FPS, and best model on CPU**
 - **Maximum number of streams, FPS, and best model on GPU**
