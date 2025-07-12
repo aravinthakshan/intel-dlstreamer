@@ -136,10 +136,6 @@ For full details of the benchmarking process, see [`src/runner.sh`](src/runner.s
 - [Intel® DL Streamer Official Tutorial: Build Object Detection Pipeline](https://dlstreamer.github.io/get_started/tutorial.html#exercise-1-build-object-detection-pipeline)
 - See `referece.txt` for a full tutorial and pipeline examples (from Intel documentation)
 
-## 7. License
-
-This project is for benchmarking and research purposes. See LICENSE for details if present.
-
 ---
 
 **Project Report:**
